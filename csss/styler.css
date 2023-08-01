@@ -1,0 +1,138 @@
+body{
+  margin:0;
+  text-align: center;
+  background-color:#A084E8;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 375%;
+  margin:0;
+  font-family: 'Sacramento', cursive;
+  color: #7A316F;
+}
+h2{
+  font-weight: normal;
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  color: #7A316F;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+h3{
+  color: #7A316F;
+  padding-top: 20px;
+}
+p{
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.top-container:{
+  background-color:#9BABB8;
+  margin-top: 0;
+
+}
+.sturgeon{
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 2px #3F2E3E, 0 0 1em #2D4356, 0 0 0.2em #2D4356;
+}
+.rizz{
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+.bottom{
+  position: absolute;
+  left: 350px;
+}
+.top{
+  position: relative;
+  left: 350px;
+  padding-top: 75px;
+}
+.webdev{
+  width: 130px;
+  height: 130px;
+  float: left;
+  margin: 50px 30px 50px 0;
+}
+.foodie{
+  width: 130px;
+  height: 130px;
+  float: right;
+  margin: 50px 0 50px 30px;
+}
+.profile{
+  color: #40514E;
+}
+hr{
+  width: 5%;
+  border-style:none;
+  border-bottom: 10px dotted #EAF6F6;
+  margin: 100px auto;
+}
+.middle-container{
+  margin: 70px 0;
+}
+.bottom-container{
+  background-color: #1D5D9B;
+  padding: 50px 0 20px 0;
+}
+a{
+  color: black;
+  margin: 20px 10px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copywright{
+  color: white;
+}
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn25 {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
